@@ -46,7 +46,7 @@ def asn1_get_value_of_type(der, (ixs, ixf, ixl), asn1_type):
     'NULL':              0x05,    'OBJECT IDENTIFIER': 0x06,
     'REAL':              0x09,    'ENUMERATED':        0x0A,
     'UTF8String':        0x0C,    
-    'SEQUENCE':          0x10,    'SET':               0x11,
+    'SEQUENCE':          0x30,    'SET':               0x31,
     'NumericString':     0x12,    'PrintableString':   0x13,
     'IA5String':         0x16,    'UTCTime':           0x17
     }
